@@ -1,0 +1,53 @@
+
+.widget {
+	display: inline-block;
+		margin: 0px auto;
+}
+/**
+* SECTION Stats
+*/
+
+.widget.stats {
+	width: 180px;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 2px;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+	cursor: pointer;
+}
+.widget.stats:hover {
+	transform: translateY(-5px);
+}
+
+.widget.stats.blue {
+	background-color: #1e90ff;
+}
+
+.widget.stats.red {
+	background-color: #ff4e4e;
+
+}
+
+.widget.stats.green {
+	background-color: #76d076;
+}
+
+.widget.stats.orange {
+	background-color: #ff6a33;
+}
+
+.widget.stats .stats-title {
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.widget.stats .stats-value {
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+
+}
+
+/*!SECTION END STATS*/
