@@ -1,11 +1,11 @@
 # Présentation
 
 Hey! 
-Voici un simple back-office que vous pouvez reprendre pour vos projets.
+Voici un simple dashboard que vous pouvez reprendre pour vos projets.
 Pour vous faciliter la vie. Le code n'est pas minifié. 
 Il y aura des mises à jour au fur et à mesure qui viendront ajouter des fonctionnalités.
 
-**Version: 0.1**
+**Version: 0.1.1**
 
 
 ## Technologies

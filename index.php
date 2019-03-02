@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html lang="en">
+	<html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +13,21 @@
 	<body>
 		<!-- Début du menu Vertical -->
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-lg-3 col-md-5">
 				<div class="nav-side-menu">
-				    <div class="brand">{RE_}</div>
+				    <div class="brand">
+				    	<div class="admin-info">
+				    		<div class="avatar">
+				    			<img src="./images/rodrigo.jpg">
+				    		</div>
+				    		<div class="name">
+				    			Rodrigo Esteves
+				    		</div>
+				    		<div class="role">
+				    			Administrateur
+				    		</div>
+				    	</div>
+				    </div>
 				    <i class="toggle-btn" data-feather="menu" data-toggle="collapse" data-target="#menu-content"></i>
 				  
 				        <div class="menu-list">
@@ -51,9 +63,9 @@
 				</div>
 			</div>
 			<!-- Fin du menu Vertical -->
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-7">
 				<main role="main" class="container">
-					<div class="col-md-12">
+					<div class="col-lg-12">
 					<div class="text-align-center">
 						<!-- Widgets - Stats -->
 						<div class="widget stats red">
@@ -87,6 +99,7 @@
 
 					<div class="panel-white">
 						Hello World !
+						Version: <b>0.1.1v</b>
 					</div>
 
 					</div>
